@@ -2,9 +2,11 @@
 
 Quickly present your designs with the famous "Lorem Ipsum" text.
 
+### Try it out: [plnkr](https://plnkr.co/edit/lD13fJK2mIq2kDHHLlUK?p=preview)
+
 ## How to use
 
-CDN: 
+CDN: Place the following script tag **at the end of your body** 
 
 `<script src="https://cdn.jsdelivr.net/gh/sroehrl/fillr/fillr.min.js"></script>`
 
