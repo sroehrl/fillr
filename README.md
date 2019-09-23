@@ -2,7 +2,7 @@
 
 Quickly present your designs with the famous "Lorem Ipsum" text.
 
-### Try it out: [plnkr](https://plnkr.co/edit/lD13fJK2mIq2kDHHLlUK?p=preview)
+### Try it out: [plnkr](https://plnkr.co/edit/v31OZE?p=preview)
 
 ## How to use
 
