@@ -2,6 +2,12 @@
 
 Quickly present your designs with the famous "Lorem Ipsum" text.
 
+Based on the idea of [digitalvillainy's loremFill](https://github.com/digitalvillainy/loremFill):
+
+- no more copying & pasting of placeholer text
+- easy to remove/replace with real content
+- output variations that test your design by simply reloading the page (ups, I did not expect the real headline to be so long...)
+
 ### Try it out: [plnkr](https://plnkr.co/edit/v31OZE?p=preview)
 
 ## How to use
