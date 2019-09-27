@@ -12,9 +12,9 @@ Based on the idea of [digitalvillainy's loremFill](https://github.com/digitalvil
 
 ## How to use
 
-CDN: Place the following script tag **at the end of your body** 
+CDN: Place the following script tag into your project 
 
-`<script src="https://cdn.jsdelivr.net/gh/sroehrl/fillr/fillr.min.js"></script>`
+`<script src="https://cdn.jsdelivr.net/gh/sroehrl/fillr/fillr.min.js" defer></script>`
 
 Just fill in {{lorem}} wherever you please. You can utilize basic functions:
 
@@ -38,3 +38,8 @@ Will generate n rows within the element.
 
 _NOTE_: combinations are possible.
 `{{lorem.rows(5).loop(3)}}`
+
+# But my JS-framework screams at me?!
+Using one of the many frameworks utilizing the double curly brackets? Worry not, you can simply use **hard brackets** instead:
+
+`<h1>[[lorem]]</h1>`
