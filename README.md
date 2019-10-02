@@ -10,6 +10,8 @@ Based on the idea of [digitalvillainy's loremFill](https://github.com/digitalvil
 
 ### Try it out: [codepen](https://codepen.io/neoan/pen/ExYJMwE)
 
+**Using it? consider leaving me a star**
+
 ## How to use
 
 CDN: Place the following script tag into your project 
