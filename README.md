@@ -16,9 +16,9 @@ Based on the idea of [digitalvillainy's loremFill](https://github.com/digitalvil
 
 CDN: Place the following script tag into your project 
 
-`<script src="https://cdn.jsdelivr.net/gh/sroehrl/fillr@vX.X.X/fillr.min.js" defer></script>`
+`<script src="https://cdn.jsdelivr.net/gh/sroehrl/fillr@v0.2.0/fillr.min.js" defer></script>`
 
-Replace @vX.X.X with desired version found from: [Available versions of Fillr](https://github.com/sroehrl/fillr/tags)
+Replace @v0.2.0 with desired version found from: [Available versions of Fillr](https://github.com/sroehrl/fillr/tags)
 
 Just fill in {{lorem}} wherever you please. You can utilize basic functions:
 
