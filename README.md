@@ -4,13 +4,6 @@ Quickly present your designs with the famous "Lorem Ipsum" text.
 
 ### Try it out: [codepen](https://codepen.io/neoan/pen/ExYJMwE?editors=1000)
 
-Based on the idea of [digitalvillainy's loremFill](https://github.com/digitalvillainy/loremFill):
-
-- no more copying & pasting of placeholer text
-- easy to remove/replace with real content
-- output variations that test your design by simply reloading the page (ups, I did not expect the real headline to be so long...)
-
-
 
 **Using it? consider leaving me a star**
 
@@ -18,7 +11,7 @@ Based on the idea of [digitalvillainy's loremFill](https://github.com/digitalvil
 
 CDN: Place the following script tag into your project 
 
-`<script src="https://cdn.jsdelivr.net/npm/fillr@1.0.0/fillr.min.js" defer></script>`
+`<script src="https://cdn.jsdelivr.net/npm/fillr@1.0.0" defer></script>`
 
 Replace @v0.2.0 with desired version found from: [Available versions of Fillr](https://github.com/sroehrl/fillr/tags)
 
@@ -49,3 +42,12 @@ _NOTE_: combinations are possible.
 Using one of the many frameworks utilizing the double curly brackets? Worry not, you can simply use **hard brackets** instead:
 
 `<h1>[[lorem]]</h1>`
+
+## Special mention
+
+Based on the idea of [digitalvillainy's loremFill](https://github.com/digitalvillainy/loremFill):
+
+- no more copying & pasting of placeholer text
+- easy to remove/replace with real content
+- output variations that test your design by simply reloading the page (ups, I did not expect the real headline to be so long...)
+
