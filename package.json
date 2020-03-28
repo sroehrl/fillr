@@ -1,0 +1,27 @@
+{
+  "name": "fillr",
+  "version": "1.0.0",
+  "description": "Dynamic lorem ipsom generator",
+  "main": "fillr.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sroehrl/fillr.git"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "filler",
+    "text",
+    "web-design",
+    "prototyping"
+  ],
+  "author": "Stefan Roehrl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sroehrl/fillr/issues"
+  },
+  "homepage": "https://github.com/sroehrl/fillr#readme"
+}
