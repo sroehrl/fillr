@@ -1,3 +1,5 @@
+I just want to use it: [![](https://data.jsdelivr.com/v1/package/npm/fillr/badge?style=rounded)](https://www.jsdelivr.com/package/npm/fillr)
+
 # fillr
 
 Quickly present your designs with the famous "Lorem Ipsum" text.
