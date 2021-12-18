@@ -20,7 +20,7 @@
     }
 
     const functions = ['loop', 'rows'];
-    let xpath = "//*[text()[contains(.,'{{lorem') or contains(.,'\[\[lorem')] or contains(.,'\[\[LOREM')] or contains(.,'{{\[\[LOREM')]]";
+    let xpath = "//*[text()[contains(.,'{{lorem') or contains(.,'\[\[lorem') or contains(.,'\[\[LOREM') or contains(.,'{{LOREM')]]";
     let matchingElements;
 
     function getLoremNodes(){
@@ -44,8 +44,8 @@
         let estimate;
         for(let i = 0;i<matchingElements.snapshotLength;i++){
             estimate = Math.round((matchingElements.snapshotItem(i).clientWidth/500));
-            matchingElements.snapshotItem(i).innerText.replace(/({{lorem}}|\[\[lorem\]\])/g,(match)=>{
-                matchingElements.snapshotItem(i).innerText = matchingElements.snapshotItem(i).innerText.replace(/({{lorem}}|\[\[lorem\]\])/,getLoremText(estimate))
+            matchingElements.snapshotItem(i).innerText.replace(/({{lorem}}|\[\[lorem\]\])/gi,(match)=>{
+                matchingElements.snapshotItem(i).innerText = matchingElements.snapshotItem(i).innerText.replace(/({{lorem}}|\[\[lorem\]\])/i,getLoremText(estimate))
             });
         }
     }
