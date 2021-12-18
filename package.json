@@ -1,6 +1,6 @@
 {
   "name": "fillr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamic lorem ipsom generator",
   "main": "fillr.js",
   "scripts": {

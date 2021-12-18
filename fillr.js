@@ -20,7 +20,7 @@
     }
 
     const functions = ['loop', 'rows'];
-    let xpath = "//*[text()[contains(.,'{{lorem') or contains(.,'\[\[lorem')]]";
+    let xpath = "//*[text()[contains(.,'{{lorem') or contains(.,'\[\[lorem')] or contains(.,'\[\[LOREM')] or contains(.,'{{\[\[LOREM')]]";
     let matchingElements;
 
     function getLoremNodes(){
