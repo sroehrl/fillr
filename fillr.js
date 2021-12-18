@@ -44,6 +44,7 @@
         let estimate;
         for(let i = 0;i<matchingElements.snapshotLength;i++){
             estimate = Math.round((matchingElements.snapshotItem(i).clientWidth/500));
+            estimate = estimate < 1 ? 1 : estimate;
             matchingElements.snapshotItem(i).innerText.replace(/({{lorem}}|\[\[lorem\]\])/gi,(match)=>{
                 matchingElements.snapshotItem(i).innerText = matchingElements.snapshotItem(i).innerText.replace(/({{lorem}}|\[\[lorem\]\])/i,getLoremText(estimate))
             });
